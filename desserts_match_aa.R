@@ -10,9 +10,11 @@ new_fav_desserts <- fav_desserts |> rename(dessert = Favorite_dessert)
 
 apple <- "apple" # yo, here is a conflict
 
+# I add this line ! one more
+# one more
+
 summary_desserts <- c()
-# We want to iterate along our favorites list to see how many matches on the
-# iconic list there are.
+# We want to iterate along our favorites list to see how many matches on the iconic list there are.
 
 #for(i in seq_along(fav_desserts$Favorite_dessert)) {
   #fav <- fav_desserts$Favorite_dessert[i]
