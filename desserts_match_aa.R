@@ -7,10 +7,12 @@ iconic_list <- read_csv(here("iconic_desserts.csv"))
 fav_desserts <- read_csv(here("favorite_desserts.csv"))
 
 new_fav_desserts <- fav_desserts |> rename(dessert = Favorite_dessert)
-
-
+#
+# yo, here is a conflict
+#
 summary_desserts <- c()
-# We want to iterate along our favorites list to see how many matches on the iconic list there are.
+# We want to iterate along our favorites list to see how many matches on the
+# iconic list there are.
 
 #for(i in seq_along(fav_desserts$Favorite_dessert)) {
   #fav <- fav_desserts$Favorite_dessert[i]
